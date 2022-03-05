@@ -1,0 +1,6 @@
+user1:
+  email: "testuser@testmailer.com"
+  password_digest: <%= BCrypt::Password.create("atestpassword") %>
+user2:
+  email: "secondtester@hottest.com"
+  password_digest: <%= BCrypt::Password.create("atestpassword") %>
